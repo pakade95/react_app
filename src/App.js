@@ -83,7 +83,7 @@ class App extends React.Component {
 
         <h1>Stylowanie globalne</h1>
         <div className="app">
-          <h1 className={classes}>Styl z arkusza</h1>
+          <h1 className={classes}>Styl pobierany z arkusza</h1>
           <h1 className={classes}>Zależny od długości tekstu</h1>
           <h1 className={classesTab.join(" ")}>Z tablicy</h1>
           <Text></Text>
